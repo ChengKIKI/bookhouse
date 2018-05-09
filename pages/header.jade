@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title 一书屋
+        meta(http-equiv="X-UA-Compatible",name="viewport",content="width=device-width, initial-scale=1.0, ie=edge",charset="UTF-8")
+        link(type="text/css",rel="stylesheet",href="../static/style/normalize.css")
+        link(type="text/css",rel="stylesheet",href="../static/style/public.css")
+        script(src="../static/js/jquery.min.js",type="text/javascript")
+    body
+        .header
+            .head-cont.displayflex.justspace
+                img.leftimg(src="images/", alt="")
+                .right-wrap
+                    each val in ['首页', '业务范围', '我要出书','出书案例','选题方向','出书流程','关于我们','帮助中心']
+                        span= val
+                    .bottom-line

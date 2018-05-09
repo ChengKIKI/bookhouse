@@ -9,7 +9,11 @@
   "author": "kikicheng",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.5.0",
+    "gulp-path": "^4.0.0",
+    "gulp-sequence": "^1.0.0"
   },
   "dependencies": {
     "gulp-content-includer": "0.0.7",
